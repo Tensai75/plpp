@@ -1,0 +1,488 @@
+/* Dark Admin Bootstrap Theme by PrepBootstrap - http://www.prepbootstrap.com */
+/* Changes for the myPLEX Library Viewer */
+
+
+@font-face {
+	font-family:'FontAwesome';
+	src:url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+	src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+	url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+	url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'),
+	url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
+	url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');font-weight:normal;font-style:normal
+}
+
+.form-control {
+	color: #000000;
+}
+	
+span.plpp_menu:before {
+	display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+span.plpp_menu_show:before {
+	content:"\f26c\00a0\00a0"
+	}
+
+span.plpp_menu_artist:before {
+	content:"\f001\00a0\00a0"
+	}
+
+span.plpp_menu_photo:before {
+	content:"\f03e\00a0\00a0"
+	}
+
+span.plpp_menu_movie:before {
+	content:"\f008\00a0\00a0"
+	}
+
+span.plpp_menu_search:before {
+	content:"\f002\00a0\00a0"
+	}	
+
+span.plpp_menu_settings:before {
+	content:"\f013\00a0\00a0"
+	}
+
+span.plpp_menu_debug:before {
+	content:"\f188\00a0\00a0"
+	}
+
+/* Remove focus outline */
+a, a:active, a:focus, 
+button, button:focus, button:active, 
+.btn, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
+    outline: none;
+    outline: 0;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #222222;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+background-color: #ff8800;
+}
+
+.plpp_dropdown-menu {
+	background-color: #3c3c3c;
+}
+
+.plpp_dropdown-menu > li > a:hover {
+	background-color: #ff8800;
+}
+
+div.modal-body {
+	padding-bottom: 15px;
+}
+
+div.modal-footer {
+	margin-top: 0px;
+}
+
+.close{
+    color: #ffffff;
+    text-shadow: none;
+    opacity: 0.5;
+    line-height: 1em;
+}
+
+.plpp_spinner {
+	text-align: center !important;
+	width: 100% !important;
+	padding: 25% 0px !important;
+}
+
+.bxslide_navigation > span > a {
+	color: #BDBDBD;
+}
+
+a, a:active, a:hover, a:visited {
+	text-decoration: none !important;
+	color: #ffffff;
+}
+
+.nav {
+	padding: 10px 15px 10px 15px;
+}
+
+.nav > li {
+  border-left: 0px;
+  width: 100%;
+}
+
+.nav > li.selected {
+  border-left: 0px;
+}
+
+.nav > li > a {
+  padding: 5px 15px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.nav > li.selected > a {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#page-wrapper {
+  padding: 0px 15px;
+}
+
+.navbar-brand {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.bx-wrapper {
+	float: left !important;
+	padding-bottom: 15px;
+}
+
+
+.plpp_breadcrumb_container {
+	width: 80%
+}
+
+.plpp_breadcrumb {
+	padding: 0px;
+	margin: 0px;
+	background: none;
+}
+
+.plpp_navigation_container {
+	float: right;
+	width: 20%;
+}
+
+.plpp_bxslide_navigation, .plpp_viewmode_navigation {
+	text-align: right;
+	float: right;
+}
+
+.panel-body {
+	padding-bottom: 0px;
+}
+
+.plpp_thumbs -> img {
+	width: 100%;
+}
+
+div.plpp_slider_container {
+	text-align: left !important;
+	white-space: nowrap !important;
+	overflow: auto !important;
+	width: 100%;
+}
+
+div.plpp_thumbs, div.plpp_slider {
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+div.plpp_slider {
+	display: inline-block;
+	margin: 0px 15px 10px 0px;
+}
+
+div.plpp_slider:last-child {
+	margin-right: 0px;
+}
+
+div.plpp_photo_full {
+	text-align: center !important;
+	width: 100%;
+}
+
+@media (min-width: 0px) {
+  div.plpp_thumbs {
+    min-width: 50%;
+  }
+  div.plpp_slider {
+    width: 50%;
+  }
+  div.plpp_details {
+    min-width: 100%;
+  }
+  body {
+	  font-size: 1.1em;
+  }
+  .navbar-brand {
+	  font-size: 1.3em
+  }
+  div.plpp_details_Thumbnail {
+  		padding: 0px 0px 10px 0px;
+  		margin: 0px;
+  }
+  div.plpp_details_Poster {
+  		padding: 0px 15px 10px 0px;
+  		margin: 0px;
+  }
+  .fa-lg {
+  	font-size: 1.6em;	
+  }
+  .close {
+  	visibility: hidden;	
+  }
+}
+
+@media (min-width: 544px) {
+  div.plpp_thumbs {
+    min-width: 33.3333%;
+  }
+  div.plpp_slider {
+    width: 33.3333%;
+  }
+  div.plpp_details {
+    min-width: 66.6666%;
+  }
+   body {
+	  font-size: 1.2em;
+  }
+  .navbar-brand {
+	  font-size: 1.3em
+  }
+  div.plpp_details_Thumbnail, div.plpp_details_Poster {
+  		padding: 0px 15px 10px 0px;
+  }
+  .close {
+  	visibility: visible;	
+  }
+}
+
+@media (min-width: 720px) {
+  div.plpp_thumbs {
+    min-width: 25%;
+  }
+  div.plpp_slider {
+    width: 25%;
+  }
+  div.plpp_details {
+    min-width: 75%;
+  }
+  body {
+	  font-size: 1.3em;
+  }
+  .navbar-brand {
+	  font-size: 1.6em
+  }
+  .fa-lg {
+  	font-size: 1.2em;	
+  }
+}
+
+@media (min-width: 1024px) {
+  div.plpp_thumbs {
+    min-width: 20%;
+  }
+  div.plpp_slider {
+    width: 20%;
+  }
+  div.plpp_details {
+    min-width: 80%;
+  }
+  body {
+	  font-size: 1.4em;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.plpp_thumbs {
+    min-width: 16.6666%;
+  }
+  div.plpp_slider {
+    width: 16.6666%;
+  }
+  div.plpp_details {
+    min-width: 83.3333%;
+  }
+}
+
+@media (min-width: 1440px) {
+  div.plpp_thumbs {
+    min-width: 14.2857%;
+  }
+  div.plpp_slider {
+    width: 14.2857%;
+  }
+  div.plpp_details {
+    min-width: 85.7143%;
+  }
+}
+
+@media (min-width: 1600px) {
+  div.plpp_thumbs {
+    min-width: 12.5%;
+  }
+  div.plpp_slider {
+    width: 12.5%;
+  }
+  div.plpp_details {
+    min-width: 87.5%;
+  }
+}
+
+@media (min-width: 1900px) {
+  div.plpp_thumbs {
+    min-width: 11.1111%;
+  }
+  div.plpp_slider {
+    width: 11.1111%;
+  }
+  div.plpp_details {
+    min-width: 88.8889%;
+  }
+}
+
+@media (min-width: 2400px) {
+  div.plpp_thumbs {
+    min-width: 10%;
+  }
+  div.plpp_slider {
+    width: 10%;
+  }
+  div.plpp_details {
+    min-width: 90%;
+  }
+  body {
+	  font-size: 1.6em;
+  }
+}
+
+
+.plpp_thumbs_Title,
+.plpp_slider_Title,
+.plpp_thumbs_Episode_Title,
+.plpp_slider_Episode_Title,
+.plpp_thumbs_Season_Title,
+.plpp_slider_Season_Title,
+.plpp_thumbs_Show_Title,
+.plpp_slider_Show_Title,
+.plpp_thumbs_Artist,
+.plpp_slider_Artist   {
+	color: #ffffff;
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.plpp_thumbs_Poster, .plpp_thumbs_Thumbnail, .plpp_slider_Poster {
+	margin-bottom: 4px;
+}
+
+.plpp_thumbs_Year, .plpp_thumbs_Episode_No, .plpp_slider_Year, .plpp_slider_Episode_no,
+.plpp_thumbs_Track_no, .plpp_slider_Track_no {
+	color: #bbbbbb !important;
+	display: inline;
+	float: left;
+	width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.plpp_thumbs_Duration, .plpp_slider_Duration {
+	color: #bbbbbb  !important;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.plpp_thumbs_Episode_Count, .plpp_slider_Episode_Count,
+.plpp_thumbs_Track_Count, .plpp_slider_Track_Count,
+.plpp_thumbs_Dimensions, .plpp_slider_Dimensions {
+	color: #bbbbbb !important;
+	display: block;
+	float: left;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+.plpp_thumbs_Year:before, .plpp_slider_Year:before { 
+    content: '(';
+}
+
+.plpp_thumbs_Year:after, .plpp_slider_Year:after { 
+    content: ')';
+}
+
+.plpp_thumbs_Episode_No:before, .plpp_slider_Episode_No:before { 
+    content: "Episode ";
+}	
+
+.plpp_thumbs_Episode_Count:after, .plpp_slider_Episode_Count:after {
+    content: " Episode(s)";
+}
+
+.plpp_thumbs_Track_Count:after, .plpp_slider_Track_Count:after {
+    content: " Track(s)";
+}
+
+.plpp_thumbs_Track_no:before, .plpp_slider_Track_no:before {
+	content: " Track ";
+}
+
+
+div.plpp_details_container {
+	margin-bottom: 20px;
+	max-height: 1%;
+	display: block;
+	overflow: hidden;
+	margin: 0px 0px 20px 0px;
+}
+
+.plpp_details {
+	color: #ffffff;
+}
+
+img.plpp_itemdetails_Thumbnail {
+	width: 100%;
+}
+
+.plpp_details_Title, .plpp_details_Year, .plpp_details_Season {
+	font-size: 1.8em;
+}
+
+.plpp_details_Year, .plpp_details_Season {
+	color: #bbbbbb;
+	font-size: 1.4em;
+}
+
+span.plpp_details_Year::before { 
+    content: "(";
+}
+
+span.plpp_details_Year::after { 
+    content: ")";
+}
+
