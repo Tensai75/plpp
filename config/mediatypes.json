@@ -1,0 +1,494 @@
+{
+	"movie": {
+		"isItem": true,
+		"imageAspectRatio": "2/3",
+		"showDetails": false,
+		"itemList": [
+			{
+				"name": "Poster",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider","itemdetails"]
+			},
+			{
+				"name": "Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider","itemdetails"]
+			},
+			{
+				"name": "Original Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "originalTitle",
+				"visibility": ["list","itemdetails"]
+			},
+			{
+				"name": "Year",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "year",
+				"visibility": ["list","thumbs","slider","itemdetails"]
+			},
+			{
+				"name": "Duration",
+				"type": "iteminfo",
+				"content_type": "minutes",
+				"content": "duration",
+				"visibility": ["list","thumbs","slider","itemdetails"]
+			},
+			{
+				"name": "Summary",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "summary",
+				"visibility": ["itemdetails"]
+			},
+			{
+				"name": "Quality",
+				"type": "mediainfo",
+				"content_type": "string",
+				"content": "videoResolution",
+				"visibility": ["list"]
+			},
+			{
+				"name": "Rating",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "rating",
+				"visibility": ["list"]
+			},
+			{
+				"name": "Content Rating",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "contentRating",
+				"visibility": ["list"]
+			},
+			{
+				"name": "Added on",
+				"type": "iteminfo",
+				"content_type": "date",
+				"content": "addedAt",
+				"visibility": ["list"]
+			}
+		]
+	},
+	"show": {
+		"showDetails": false,
+		"imageAspectRatio": "2/3",
+		"itemList": [
+			{
+				"name": "Poster",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider","details"]
+			},
+			{
+				"name": "Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider","details"]
+			},
+			{
+				"name": "Year",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "year",
+				"visibility": ["list","thumbs","slider","details"]
+			},
+			{
+				"name": "Rating",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "rating",
+				"visibility": ["list","details"]
+			},
+			{
+				"name": "Content Rating",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "contentRating",
+				"visibility": ["list","details"]
+			},
+			{
+				"name": "Added on",
+				"type": "iteminfo",
+				"content_type": "date",
+				"content": "addedAt",
+				"visibility": ["list","details"]
+			}
+		]
+	},
+	"season": {
+		"showDetails": true,
+		"imageAspectRatio": "2/3",
+		"itemList": [
+			{
+				"name": "Show Poster",
+				"type": "attribute",
+				"content_type": "img",
+				"content": "key",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Season Poster",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider"]
+			},
+			{
+				"name": "Show Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "parentTitle",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Season No",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "index",
+				"visibility": ["list"]
+			},
+			{
+				"name": "Season Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Title",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "parentTitle",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Episode Count",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "leafCount",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Year",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "parentYear",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Summary",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "summary",
+				"visibility": ["details"]
+			}
+		]
+	},
+	"episode": {
+		"isItem": true,
+		"imageAspectRatio": "3/2",
+		"showDetails": true,
+		"itemList": [
+			{
+				"name": "Season Poster",
+				"type": "attribute",
+				"content_type": "img",
+				"content": "key",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Show Title",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "title1",
+				"visibility": ["details", "itemdetails"]
+			},
+			{
+				"name": "Season Title",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "title2",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Thumbnail",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider","itemdetails"]
+			},
+			{
+				"name": "Show Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "grandparentTitle",
+				"visibility": ["list","thumbs","slider", "itemdetails"]
+			},
+			{
+				"name": "Episode Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider", "itemdetails"]
+			},
+			{
+				"name": "Episode No",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "index",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Summary",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "summary",
+				"visibility": ["itemdetails"]
+			},
+			{
+				"name": "Duration",
+				"type": "mediainfo",
+				"content_type": "minutes",
+				"content": "duration",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Quality",
+				"type": "mediainfo",
+				"content_type": "string",
+				"content": "videoResolution",
+				"visibility": ["list"]
+			},
+			{
+				"name": "Rating",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "rating",
+				"visibility": ["list"]
+			},
+			{
+				"name": "Added on",
+				"type": "iteminfo",
+				"content_type": "date",
+				"content": "addedAt",
+				"visibility": ["list"]
+			}
+		]
+	},
+	"artist": {
+		"imageAspectRatio": "1/1",
+		"showDetails": false,
+		"itemList": [
+			{
+				"name": "Poster",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider","details"]
+			},
+			{
+				"name": "Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider","details"]
+			}
+		]
+	},
+	"album": {
+		"showDetails": true,
+		"imageAspectRatio": "1/1",
+		"itemList": [
+			{
+				"name": "Poster",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider"]
+			},
+			{
+				"name": "Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Artist",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "parentTitle",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Year",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "year",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Track Count",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "leafCount",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Poster",
+				"type": "attribute",
+				"content_type": "img",
+				"content": "key",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Title",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "parentTitle",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Summary",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "summary",
+				"visibility": ["details"]
+			}
+		]
+	},
+	"track": {
+		"isItem": true,
+		"imageAspectRatio": "1/1",
+		"showDetails": true,
+		"itemList": [
+			{
+				"name": "Album Title",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "title2",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Album Artist",
+				"type": "attribute",
+				"content_type": "string",
+				"content": "title1",
+				"visibility": ["details"]
+			},
+			{
+				"name": "Poster",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider","itemdetails"]
+			},
+			{
+				"name": "Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider","details","itemdetails"]
+			},
+			{
+				"name": "Artist",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "originalTitle",
+				"visibility": ["list","thumbs","slider","itemdetails"]
+			},
+			{
+				"name": "Album",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "parentTitle",
+				"visibility": ["itemdetails"]
+			},
+			{
+				"name": "Track no",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "index",
+				"visibility": ["list","thumbs","slider","itemdetails"]
+			},
+			{
+				"name": "Year",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "year",
+				"visibility": ["list","details","itemdetails"]
+			},
+			{
+				"name": "Duration",
+				"type": "mediainfo",
+				"content_type": "minutes:seconds",
+				"content": "duration",
+				"visibility": ["list","thumbs","slider"]
+			}
+		]
+	},
+	"photoalbum": { 
+		"imageAspectRatio": "1/1",
+		"showDetails": false,
+		"itemList": [
+			{
+				"name": "Poster",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider"]
+			},
+			{
+				"name": "Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Dimensions",
+				"type": "mediainfo",
+				"content_type": "string",
+				"content": "dimensions",
+				"visibility": ["list","thumbs","slider"]
+			}
+		]
+	},
+	"photo": { 
+		"isItem": true,
+		"imageAspectRatio": "1/1",
+		"showDetails": false,
+		"itemList": [
+			{
+				"name": "Poster",
+				"type": "iteminfo",
+				"content_type": "img",
+				"content": "ratingKey",
+				"visibility": ["thumbs","slider"]
+			},
+			{
+				"name": "Title",
+				"type": "iteminfo",
+				"content_type": "string",
+				"content": "title",
+				"visibility": ["list","thumbs","slider"]
+			},
+			{
+				"name": "Dimensions",
+				"type": "mediainfo",
+				"content_type": "string",
+				"content": "dimensions",
+				"visibility": ["list","thumbs","slider"]
+			}
+		]
+	}
+}
