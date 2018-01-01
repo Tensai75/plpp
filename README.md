@@ -1,4 +1,4 @@
-![PLEX Logo](https://github.com/Tensai75/plpp/raw/master/plpp/favicon.ico)
+![PLEX Logo](https://github.com/Tensai75/plpp/raw/master/favicon.ico)
 
 PHP Library Presenter for PLEX [PLPP]
 =====================================
