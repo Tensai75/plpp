@@ -928,7 +928,7 @@ $plppOutput['Content'] .= '		<div class="col-md-3">'.PHP_EOL;
 $plppOutput['Content'] .= '		</div>'.PHP_EOL;
 $plppOutput['Content'] .= '		<div class="col-md-9">'.PHP_EOL;
 $plppOutput['Content'] .= '			<input class="btn btn-primary" type="submit" value="Search">'.PHP_EOL;
-$plppOutput['Content'] .= '			<button type="button" class="btn btn-default" data-dismiss="modal">Cancle</button>'.PHP_EOL;
+$plppOutput['Content'] .= '			<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>'.PHP_EOL;
 $plppOutput['Content'] .= '		</div>'.PHP_EOL;
 $plppOutput['Content'] .= '	</fieldset>'.PHP_EOL;	
 $plppOutput['Content'] .= '</fieldset>'.PHP_EOL;
@@ -936,7 +936,7 @@ $plppOutput['Content'] .= '</form>'.PHP_EOL;
 $plppOutput['Content']  .= <<<END
 			</div>
 			<!-- div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Cancle</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
 			</div -->
 		</div>
 	</div>
