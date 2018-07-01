@@ -12,6 +12,10 @@ if (isset($_GET['logout']) and isset($_SESSION['loged-in'])) {
 	die;
 }
 
+// Reset token if requested
+if (isset($_GET['cleartoken']) and isset($_SESSION['token'])) {
+	unset($_SESSION['token']);
+}
 
 // Defining constants
 define('PLPP_PATH', '');
@@ -405,6 +409,7 @@ else {
 			$plppOutput['Menu'] .= '<span class="fa fa-gear fa-lg"></span>&nbsp;&nbsp;';
 			$plppOutput['Menu'] .= $value['name'].'</a></li>'.PHP_EOL;
 		}
+		$plppOutput['Menu'] .= '<li class="plpp_menu"><a href="'.PLPP_BASE_PATH.'?cleartoken=1"><i class="fa fa-ban fa-lg"></i>&nbsp;&nbsp;Reset Token</a></li>'.PHP_EOL;
 		$plppOutput['Menu'] .= '<li class="plpp_menu"><a href="'.PLPP_BASE_PATH.'?logout=1"><i class="fa fa-sign-out fa-lg"></i>&nbsp;&nbsp;Log out</a></li>'.PHP_EOL;
 		$plppOutput['Menu'] .= '<li class="plpp_menu"><a href="index.php"><i class="fa fa-home fa-lg"></i>&nbsp;&nbsp;Back to Frontend</a></li>'.PHP_EOL;
 	
