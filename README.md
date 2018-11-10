@@ -78,15 +78,15 @@ Change permissions for the following folders:
 Point your web browser to "plpp/settings.php". You are first prompted to set the password for the settings section. Thereafter you can login to configure the settings.
 
 
-Screen Shoots
+Screenshots
 -------------
 
-![Screen Shoot 1](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp1.jpg)
-![Screen Shoot 2](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp2.jpg)
-![Screen Shoot 3](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp3.jpg)
-![Screen Shoot 4](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp4.jpg)
-![Screen Shoot 5](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp5.jpg)
-![Screen Shoot 6](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp6.jpg)
+![Screenshot 1](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp1.jpg)
+![Screenshot 2](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp2.jpg)
+![Screenshot 3](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp3.jpg)
+![Screenshot 4](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp4.jpg)
+![Screenshot 5](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp5.jpg)
+![Screenshot 6](https://github.com/Tensai75/plpp/raw/master/screenshoots/plpp6.jpg)
 
 
 Revision history
