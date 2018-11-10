@@ -15,6 +15,14 @@ Download
 https://github.com/Tensai75/plpp/releases
 
 
+Docker Image
+------------
+
+A docker image has kindly been provided by [christronyxyocum](https://github.com/christronyxyocum):
+
+https://hub.docker.com/r/tronyx/docker-plpp/
+
+
 Description
 -----------
 
