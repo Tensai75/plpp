@@ -58,14 +58,14 @@
 				"type": "iteminfo",
 				"content_type": "string",
 				"content": "rating",
-				"visibility": ["list"]
+				"visibility": ["list","itemdetails"]
 			},
 			{
 				"name": "Content Rating",
 				"type": "iteminfo",
 				"content_type": "string",
 				"content": "contentRating",
-				"visibility": ["list"]
+				"visibility": ["list","itemdetails"]
 			},
 			{
 				"name": "Added on",
@@ -73,6 +73,48 @@
 				"content_type": "date",
 				"content": "addedAt",
 				"visibility": ["list"]
+			},
+			{
+				"name": "Genre",
+				"type": "iteminfoextra",
+				"content_type": "string",
+				"content": "Genre",
+				"visibility": ["itemdetails"]
+			},
+			{
+				"name": "Actor",
+				"type": "iteminfoextra",
+				"content_type": "string",
+				"content": "Role",
+				"visibility": ["itemdetails"]
+			},
+			{
+				"name": "Director",
+				"type": "iteminfoextra",
+				"content_type": "string",
+				"content": "Director",
+				"visibility": ["itemdetails"]
+			},
+			{
+				"name": "Writer",
+				"type": "iteminfoextra",
+				"content_type": "string",
+				"content": "Writer",
+				"visibility": ["itemdetails"]
+			},
+			{
+				"name": "Producer",
+				"type": "iteminfoextra",
+				"content_type": "string",
+				"content": "Producer",
+				"visibility": ["itemdetails"]
+			},
+			{
+				"name": "Country",
+				"type": "iteminfoextra",
+				"content_type": "string",
+				"content": "Country",
+				"visibility": ["itemdetails"]
 			}
 		]
 	},
