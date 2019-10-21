@@ -7,7 +7,8 @@ Version
 -------
 
 v1.0 - 01.01.2018 - first release on GitHub
-v1.05 - My first Release with Movie Details
+
+v1.05 - 18.10.2019 - Added Movie Details
 
 
 Download
