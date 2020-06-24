@@ -469,13 +469,30 @@ img.plpp_itemdetails_Thumbnail {
 	width: 100%;
 }
 
-.plpp_details_Title, .plpp_details_Year, .plpp_details_Season {
+.plpp_details_Title {
 	font-size: 1.8em;
 }
 
 .plpp_details_Year, .plpp_details_Season {
 	color: #bbbbbb;
 	font-size: 1.4em;
+}
+
+.plpp_details_Duration {
+	color: #ddbd04;
+}
+
+i.plpp_rating {
+  color: #ddbd04;
+}
+
+.plpp_details_Summary {
+  font-size: 1.3em;
+}
+
+.plpp_details_Cast {
+  color: #bbbbbb;
+  font-size: 1.2em;
 }
 
 span.plpp_details_Year::before { 

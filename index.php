@@ -626,6 +626,7 @@ foreach ($plppItems as $parentKey => $parent) {
 	// Only generate the items output if we are not in details viewmode
 	if ($plppViewmode != 'details') {
 
+		
 		// rotate through the items
 		foreach ($parent['items'] as $childKey => $child) {
 
@@ -676,6 +677,7 @@ foreach ($plppItems as $parentKey => $parent) {
 				}
 			}
 
+			//TODO qua altre modalita
 			// Generate the actual item content
 			foreach ($plppConfiguration['mediatypes'][$child['type']]['itemList'] as $item) {
 				
@@ -733,13 +735,17 @@ foreach ($plppItems as $parentKey => $parent) {
 		}
 	}
 	else {
+		//TODO qua details
 		// Generate item details output if we are in details viewmode
 		foreach ($plppConfiguration['mediatypes'][$plppViewgroupType]['itemList'] as $item) {
 			if (in_array('itemdetails',$item['visibility'])) {
 					$plppItems['itemdetails'][$item['name']] = $plex->getFormatedItemsContent(0, $item['type'], $item['content'], $item['content_type'], $plexKey);
 			}
 		}
+		
 		$plppDetails = plpp_templates($plppItems, $plppViewgroupType, 'itemdetails');
+		//var_dump($plppItems['itemdetails']);
+		//die();
 		
 		// If it is an ajax request serve it to the browser and end
 		if ($plppIsModal) {
@@ -838,7 +844,7 @@ END;
 	$plppOutput['ScriptCode']  .= PHP_EOL;
 	$plppOutput['Content']  .= <<<END
 <div class="modal fade plpp_modal" id="plpp_Modal" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-dialog modal-md">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>

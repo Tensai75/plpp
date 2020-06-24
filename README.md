@@ -8,6 +8,8 @@ Version
 
 v1.0 - 01.01.2018 - first release on GitHub
 
+v1.05 - 18.10.2019 - Added Movie Details
+
 
 Download
 --------
@@ -92,7 +94,7 @@ Screenshots
 ![Screenshot 1](https://github.com/Tensai75/plpp/raw/master/screenshots/plpp1.jpg)
 ![Screenshot 2](https://github.com/Tensai75/plpp/raw/master/screenshots/plpp2.jpg)
 ![Screenshot 3](https://github.com/Tensai75/plpp/raw/master/screenshots/plpp3.jpg)
-![Screenshot 4](https://github.com/Tensai75/plpp/raw/master/screenshots/plpp4.jpg)
+![Screenshot_4](https://github.com/neapolis79/plpp/blob/master/screenshots/Screeshots%204%20(neapolis79).JPG)
 ![Screenshot 5](https://github.com/Tensai75/plpp/raw/master/screenshots/plpp5.jpg)
 ![Screenshot 6](https://github.com/Tensai75/plpp/raw/master/screenshots/plpp6.jpg)
 

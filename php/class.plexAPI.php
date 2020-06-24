@@ -466,7 +466,7 @@ class plexAPI
 		{
 			$content = 'grandparentTitle';
 		}
-				
+		//TODO
 		switch ($contentType)
 		{
 			case 'attribute':
@@ -477,6 +477,23 @@ class plexAPI
 			case 'iteminfo':
 			{
 				$content = $this->plexItems[$item]['items'][$itemsKey][$content];
+				break;
+			}
+			case 'iteminfoextra':
+			{
+				$tmp = '';
+				if (!empty($this->plexItems[$item]['items'][$itemsKey][$content]))
+				{
+					if (!empty($this->plexItems[$item]['items'][$itemsKey][$content]['tag'])) {
+						$tmp = $this->plexItems[$item]['items'][$itemsKey][$content]['tag'];
+					} else {
+						foreach ($this->plexItems[$item]['items'][$itemsKey][$content] as $element) {
+							$tmp = $tmp . ' ' . $element['tag'] . ',';
+						}
+						$tmp = rtrim($tmp, ",");
+					}	
+				}
+				$content = $tmp;
 				break;
 			}
 			case 'mediainfo':
@@ -492,6 +509,7 @@ class plexAPI
 			default:
 			{
 				// Something to do here???
+				
 			}
 		}
 		return $content;
@@ -598,7 +616,9 @@ class plexAPI
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 		}
+		
 		$content = curl_exec($ch);
+		
 		$curlError = curl_error($ch);
 
 		// Debug code
