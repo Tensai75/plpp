@@ -20,7 +20,7 @@ Docker Image
 
 A docker image has kindly been provided by [christronyxyocum](https://github.com/christronyxyocum):
 
-https://hub.docker.com/r/tronyx/docker-plpp/
+https://hub.docker.com/r/tronyx/plpp
 
 
 Description
